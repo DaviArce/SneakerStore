@@ -1,3 +1,7 @@
+# Paths
+build/
+dist/
+test/
 # Compiled class file
 *.class
 

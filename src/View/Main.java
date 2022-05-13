@@ -1,22 +1,11 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
 package View;
+import Controllers.Login;
 
-/**
- *
- * @author davia
- */
+
 public class Main extends javax.swing.JFrame {
-    
-    String [][] info = {{"davi","teste","teste2"},{"123456","12345678","16516565"},{"true","false","true"}};
-    
-    // info [][] primerio [] indica a coluna o segundo [] referente a linha
-    
-     /**
-     * Creates new form Main
-     */
+     
+     // Creates new form Main
+
     public Main() {
         initComponents();
     }
@@ -101,22 +90,9 @@ public class Main extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnOkActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnOkActionPerformed
-        
-        if(txtSenha.getText().equals(info[1][0]) && txtUsuario.getText().equals(info[0][0])){
-            if(info[2][0] == "true"
-                    + ""){
-                System.out.println("você é admin");
-            }
-            else{
-                System.out.println("você não é admin");
-            }
-        }
-        else{
-               
-            System.out.println("não logado");
-   
-        }
-        
+        Login logObj = new Login(txtUsuario.getText(),txtSenha.getText());
+        logObj.login();
+        this.dispose();
     }//GEN-LAST:event_btnOkActionPerformed
 
     /**
