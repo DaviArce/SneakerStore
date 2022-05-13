@@ -103,7 +103,8 @@ public class Main extends javax.swing.JFrame {
     private void btnOkActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnOkActionPerformed
         
         if(txtSenha.getText().equals(info[1][0]) && txtUsuario.getText().equals(info[0][0])){
-            if(info[2][0] == "true"){
+            if(info[2][0] == "true"
+                    + ""){
                 System.out.println("você é admin");
             }
             else{
