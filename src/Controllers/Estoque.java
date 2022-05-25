@@ -11,7 +11,7 @@ package Controllers;
 public class Estoque extends Produto {
     private double tamanhoMinimo;
     private double tamanhoMaximo;
-
+    
     public Estoque() {
         this.verificarLimiteEstoque();
     }
@@ -34,7 +34,7 @@ public class Estoque extends Produto {
     }
     
     public void cadastrarProdEstoque(){
-        
+
     }
 
     public void alterarProdEstoque(){

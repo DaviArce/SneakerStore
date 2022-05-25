@@ -26,21 +26,1382 @@ public class Gerente extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        frameEstoque = new javax.swing.JFrame();
+        jTabbedPane1 = new javax.swing.JTabbedPane();
+        PaneCadastrarProdutos = new javax.swing.JPanel();
+        btnEVoltar1 = new javax.swing.JButton();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
+        txtCodigoProduto = new javax.swing.JTextField();
+        txtNomeProduto = new javax.swing.JTextField();
+        rbProdutoMasculino = new javax.swing.JRadioButton();
+        rbProdutoFeminino = new javax.swing.JRadioButton();
+        cbCorProduto = new javax.swing.JComboBox<>();
+        cbTamanhoProduto = new javax.swing.JComboBox<>();
+        txtQuantidadeProduto = new javax.swing.JTextField();
+        btnSalvarCadastroProduto = new javax.swing.JButton();
+        jLabel47 = new javax.swing.JLabel();
+        jScrollPane9 = new javax.swing.JScrollPane();
+        listProdutosCadastrados = new javax.swing.JList<>();
+        PaneAlterarProdutos = new javax.swing.JPanel();
+        btnEVoltar2 = new javax.swing.JButton();
+        jLabel9 = new javax.swing.JLabel();
+        jLabel10 = new javax.swing.JLabel();
+        txtCodigoAlterarProduto = new javax.swing.JTextField();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        txtDetalhesProdutoAlterarProduto = new javax.swing.JTextArea();
+        jLabel11 = new javax.swing.JLabel();
+        jLabel12 = new javax.swing.JLabel();
+        cbAtributoProduto = new javax.swing.JComboBox<>();
+        txtValorAlterarProduto = new javax.swing.JTextField();
+        jLabel13 = new javax.swing.JLabel();
+        jLabel14 = new javax.swing.JLabel();
+        jScrollPane2 = new javax.swing.JScrollPane();
+        ListProdutosCadastradosAlterarProduto = new javax.swing.JList<>();
+        cbExcluirProduto = new javax.swing.JCheckBox();
+        btnSalvarAlteracaoProduto = new javax.swing.JButton();
+        frameVenda = new javax.swing.JFrame();
+        jTabbedPane2 = new javax.swing.JTabbedPane();
+        paneVendasAtendentes = new javax.swing.JPanel();
+        btnVoltarVendasAtendentes = new javax.swing.JButton();
+        jLabel53 = new javax.swing.JLabel();
+        txtCodigoAtendenteVendas = new javax.swing.JTextField();
+        btnVisualizarHistoricoAtendente = new javax.swing.JButton();
+        jScrollPane12 = new javax.swing.JScrollPane();
+        listHistoricoVendasAtendente = new javax.swing.JList<>();
+        jLabel54 = new javax.swing.JLabel();
+        jLabel55 = new javax.swing.JLabel();
+        jScrollPane13 = new javax.swing.JScrollPane();
+        txtDetalhesVendaAtendente = new javax.swing.JTextArea();
+        paneVendasGeral = new javax.swing.JPanel();
+        btnVoltarVendasGeral = new javax.swing.JButton();
+        jLabel48 = new javax.swing.JLabel();
+        jLabel49 = new javax.swing.JLabel();
+        cbPeriodoVendasGeral = new javax.swing.JComboBox<>();
+        jScrollPane10 = new javax.swing.JScrollPane();
+        listHistoricoVendasGeral = new javax.swing.JList<>();
+        jLabel50 = new javax.swing.JLabel();
+        jLabel51 = new javax.swing.JLabel();
+        jScrollPane11 = new javax.swing.JScrollPane();
+        txtDetalheVendasGeral = new javax.swing.JTextArea();
+        btnGerarRelatorio = new javax.swing.JButton();
+        jLabel52 = new javax.swing.JLabel();
+        btnVizualizarVendasGeral = new javax.swing.JButton();
+        frameCadastro = new javax.swing.JFrame();
+        btnCadastrarAtendente = new javax.swing.JButton();
+        btnCadastrarCliente = new javax.swing.JButton();
+        jLabel15 = new javax.swing.JLabel();
+        btnCVoltar = new javax.swing.JButton();
+        frameCadastrarAtendente = new javax.swing.JFrame();
+        tpAtendente = new javax.swing.JTabbedPane();
+        paneCadastrarAtendente = new javax.swing.JPanel();
+        btnCAVolar = new javax.swing.JButton();
+        jLabel16 = new javax.swing.JLabel();
+        jLabel17 = new javax.swing.JLabel();
+        jLabel18 = new javax.swing.JLabel();
+        jLabel19 = new javax.swing.JLabel();
+        jLabel20 = new javax.swing.JLabel();
+        jLabel21 = new javax.swing.JLabel();
+        jLabel22 = new javax.swing.JLabel();
+        jLabel23 = new javax.swing.JLabel();
+        jLabel24 = new javax.swing.JLabel();
+        jLabel25 = new javax.swing.JLabel();
+        txtNomeAtendente = new javax.swing.JTextField();
+        txtCPFAtendente = new javax.swing.JTextField();
+        txtIdadeAtendente = new javax.swing.JTextField();
+        txtCodigoAtendente = new javax.swing.JTextField();
+        cbCargoAtendente = new javax.swing.JComboBox<>();
+        txtSalarioAtendente = new javax.swing.JTextField();
+        rbAtivoAtendenteSim = new javax.swing.JRadioButton();
+        rbAtivoAtendenteNao = new javax.swing.JRadioButton();
+        txtEmailAtendente = new javax.swing.JTextField();
+        txtTelefoneAtendente = new javax.swing.JTextField();
+        jScrollPane3 = new javax.swing.JScrollPane();
+        listAtendentesCadastrados = new javax.swing.JList<>();
+        jLabel26 = new javax.swing.JLabel();
+        btnSalvarCadastroAtendente = new javax.swing.JButton();
+        paneAlterarDadosAtendente = new javax.swing.JPanel();
+        btnADAVoltar = new javax.swing.JButton();
+        jLabel27 = new javax.swing.JLabel();
+        jLabel28 = new javax.swing.JLabel();
+        btnCodigoAtendenteAlterar = new javax.swing.JTextField();
+        jLabel29 = new javax.swing.JLabel();
+        cbAtributosAtendenteAlterar = new javax.swing.JComboBox<>();
+        jLabel30 = new javax.swing.JLabel();
+        txtNovosValoresAtendente = new javax.swing.JTextField();
+        jScrollPane4 = new javax.swing.JScrollPane();
+        listAtendentesCadastradosAlterarDados = new javax.swing.JList<>();
+        jLabel31 = new javax.swing.JLabel();
+        jLabel32 = new javax.swing.JLabel();
+        jScrollPane5 = new javax.swing.JScrollPane();
+        txtDetalhesAtendente = new javax.swing.JTextArea();
+        btnSalvarAlterarDadosAtendente = new javax.swing.JButton();
+        frameCadastrarCliente = new javax.swing.JFrame();
+        tpCliente = new javax.swing.JTabbedPane();
+        paneAlterarDadosCliente = new javax.swing.JPanel();
+        btnADCVoltar = new javax.swing.JButton();
+        jLabel41 = new javax.swing.JLabel();
+        jLabel42 = new javax.swing.JLabel();
+        jLabel43 = new javax.swing.JLabel();
+        jLabel44 = new javax.swing.JLabel();
+        txtAlterarDadosCPFCliente = new javax.swing.JTextField();
+        jComboBox1 = new javax.swing.JComboBox<>();
+        txtNovoDadoAlterarDadoCliente = new javax.swing.JTextField();
+        cbExcluirCliente = new javax.swing.JCheckBox();
+        btnSalvarAlterarDadosCliente = new javax.swing.JButton();
+        jScrollPane7 = new javax.swing.JScrollPane();
+        listClientesCadastradosAlterarDados = new javax.swing.JList<>();
+        jLabel45 = new javax.swing.JLabel();
+        jLabel46 = new javax.swing.JLabel();
+        jScrollPane8 = new javax.swing.JScrollPane();
+        txtDetalheClienteAlterarDadoCliente = new javax.swing.JTextArea();
+        paneCadastrarCliente = new javax.swing.JPanel();
+        btnCCVoltar = new javax.swing.JButton();
+        jLabel33 = new javax.swing.JLabel();
+        jLabel34 = new javax.swing.JLabel();
+        jLabel35 = new javax.swing.JLabel();
+        jLabel36 = new javax.swing.JLabel();
+        jLabel37 = new javax.swing.JLabel();
+        jLabel38 = new javax.swing.JLabel();
+        jLabel39 = new javax.swing.JLabel();
+        txtNomeCliente = new javax.swing.JTextField();
+        txtCPFCliente = new javax.swing.JTextField();
+        txtIdadeCliente = new javax.swing.JTextField();
+        txtTelefoneCliente = new javax.swing.JTextField();
+        txtEmailCliente = new javax.swing.JTextField();
+        rbAtivoClienteSim = new javax.swing.JRadioButton();
+        rbAtivoClienteNao = new javax.swing.JRadioButton();
+        jScrollPane6 = new javax.swing.JScrollPane();
+        listClientesCadastrados = new javax.swing.JList<>();
+        jLabel40 = new javax.swing.JLabel();
+        btnSalvarCadastroCliente = new javax.swing.JButton();
+        btnEstoque = new javax.swing.JButton();
+        btnVendas = new javax.swing.JButton();
+        btnCadastro = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
+
+        frameEstoque.setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        frameEstoque.setMinimumSize(new java.awt.Dimension(880, 480));
+
+        PaneCadastrarProdutos.setMaximumSize(new java.awt.Dimension(880, 480));
+        PaneCadastrarProdutos.setMinimumSize(new java.awt.Dimension(880, 480));
+
+        btnEVoltar1.setText("Voltar");
+        btnEVoltar1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnEVoltar1ActionPerformed(evt);
+            }
+        });
+
+        jLabel2.setText("Código do produto");
+
+        jLabel3.setText("Nome");
+
+        jLabel4.setText("Tipo");
+
+        jLabel5.setText("Cor");
+
+        jLabel6.setText("CADASTRO");
+
+        jLabel7.setText("Tamanho");
+
+        jLabel8.setText("Quantidade");
+
+        rbProdutoMasculino.setText("Masculino");
+
+        rbProdutoFeminino.setText("Feminino");
+
+        cbCorProduto.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Branco", "Preto", "Cinza", "Azul", "Vermelho", "Amarelo", "Verde", "Rosa", "Bege" }));
+        cbCorProduto.addItemListener(new java.awt.event.ItemListener() {
+            public void itemStateChanged(java.awt.event.ItemEvent evt) {
+                cbCorProdutoItemStateChanged(evt);
+            }
+        });
+        cbCorProduto.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cbCorProdutoActionPerformed(evt);
+            }
+        });
+
+        cbTamanhoProduto.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "36", "37", "38", "39", "40", "41", "42", "43", "44", "45" }));
+
+        btnSalvarCadastroProduto.setText("Salvar");
+        btnSalvarCadastroProduto.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnSalvarCadastroProdutoActionPerformed(evt);
+            }
+        });
+
+        jLabel47.setText("Produtos Cadastrados");
+
+        jScrollPane9.setViewportView(listProdutosCadastrados);
+
+        javax.swing.GroupLayout PaneCadastrarProdutosLayout = new javax.swing.GroupLayout(PaneCadastrarProdutos);
+        PaneCadastrarProdutos.setLayout(PaneCadastrarProdutosLayout);
+        PaneCadastrarProdutosLayout.setHorizontalGroup(
+            PaneCadastrarProdutosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(PaneCadastrarProdutosLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(btnEVoltar1, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(btnSalvarCadastroProduto, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(31, 31, 31))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PaneCadastrarProdutosLayout.createSequentialGroup()
+                .addGroup(PaneCadastrarProdutosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(PaneCadastrarProdutosLayout.createSequentialGroup()
+                        .addGap(390, 390, 390)
+                        .addComponent(jLabel6))
+                    .addGroup(PaneCadastrarProdutosLayout.createSequentialGroup()
+                        .addGap(64, 64, 64)
+                        .addGroup(PaneCadastrarProdutosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel4)
+                            .addComponent(jLabel5)
+                            .addComponent(jLabel7)
+                            .addComponent(jLabel8)
+                            .addGroup(PaneCadastrarProdutosLayout.createSequentialGroup()
+                                .addGroup(PaneCadastrarProdutosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabel2)
+                                    .addComponent(jLabel3))
+                                .addGap(42, 42, 42)
+                                .addGroup(PaneCadastrarProdutosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                    .addComponent(txtCodigoProduto)
+                                    .addComponent(txtNomeProduto, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addGroup(PaneCadastrarProdutosLayout.createSequentialGroup()
+                                .addGap(119, 119, 119)
+                                .addGroup(PaneCadastrarProdutosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addGroup(PaneCadastrarProdutosLayout.createSequentialGroup()
+                                        .addComponent(rbProdutoMasculino)
+                                        .addGap(18, 18, 18)
+                                        .addComponent(rbProdutoFeminino))
+                                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, PaneCadastrarProdutosLayout.createSequentialGroup()
+                                        .addGap(21, 21, 21)
+                                        .addGroup(PaneCadastrarProdutosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                            .addComponent(cbCorProduto, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                            .addComponent(cbTamanhoProduto, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                            .addComponent(txtQuantidadeProduto, javax.swing.GroupLayout.PREFERRED_SIZE, 164, javax.swing.GroupLayout.PREFERRED_SIZE))))))))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 41, Short.MAX_VALUE)
+                .addComponent(jScrollPane9, javax.swing.GroupLayout.PREFERRED_SIZE, 244, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(145, 145, 145))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PaneCadastrarProdutosLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel47)
+                .addGap(211, 211, 211))
+        );
+        PaneCadastrarProdutosLayout.setVerticalGroup(
+            PaneCadastrarProdutosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PaneCadastrarProdutosLayout.createSequentialGroup()
+                .addGap(21, 21, 21)
+                .addComponent(jLabel6)
+                .addGroup(PaneCadastrarProdutosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(PaneCadastrarProdutosLayout.createSequentialGroup()
+                        .addGap(69, 69, 69)
+                        .addGroup(PaneCadastrarProdutosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel2)
+                            .addComponent(txtCodigoProduto, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(18, 18, 18)
+                        .addGroup(PaneCadastrarProdutosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel3)
+                            .addComponent(txtNomeProduto, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(19, 19, 19)
+                        .addGroup(PaneCadastrarProdutosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel4)
+                            .addComponent(rbProdutoMasculino)
+                            .addComponent(rbProdutoFeminino))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGroup(PaneCadastrarProdutosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel5)
+                            .addComponent(cbCorProduto, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(18, 18, 18)
+                        .addGroup(PaneCadastrarProdutosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel7)
+                            .addComponent(cbTamanhoProduto, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(18, 18, 18)
+                        .addGroup(PaneCadastrarProdutosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel8)
+                            .addComponent(txtQuantidadeProduto, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(PaneCadastrarProdutosLayout.createSequentialGroup()
+                        .addGap(29, 29, 29)
+                        .addComponent(jLabel47)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jScrollPane9, javax.swing.GroupLayout.PREFERRED_SIZE, 233, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(18, 18, 18)
+                .addGroup(PaneCadastrarProdutosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btnEVoltar1, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnSalvarCadastroProduto, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(106, Short.MAX_VALUE))
+        );
+
+        jTabbedPane1.addTab("Cadastrar Produtos", PaneCadastrarProdutos);
+
+        PaneAlterarProdutos.setMaximumSize(new java.awt.Dimension(880, 480));
+        PaneAlterarProdutos.setMinimumSize(new java.awt.Dimension(880, 480));
+
+        btnEVoltar2.setText("Voltar");
+        btnEVoltar2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnEVoltar2ActionPerformed(evt);
+            }
+        });
+
+        jLabel9.setText("ALTERAR PRODUTO");
+
+        jLabel10.setText("Codigo do Produto");
+
+        txtCodigoAlterarProduto.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtCodigoAlterarProdutoActionPerformed(evt);
+            }
+        });
+
+        txtDetalhesProdutoAlterarProduto.setColumns(20);
+        txtDetalhesProdutoAlterarProduto.setRows(5);
+        jScrollPane1.setViewportView(txtDetalhesProdutoAlterarProduto);
+
+        jLabel11.setText("Detalhes do Produto");
+
+        jLabel12.setText("Atributo a ser alterado");
+
+        cbAtributoProduto.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Nome", "Cor", "Tamanho", "Quantidade", "Tipo", " " }));
+
+        jLabel13.setText("Novo valor");
+
+        jLabel14.setText("Produtos Cadastrados");
+
+        jScrollPane2.setViewportView(ListProdutosCadastradosAlterarProduto);
+
+        cbExcluirProduto.setText("Excluir Produto");
+
+        btnSalvarAlteracaoProduto.setText("Salvar");
+
+        javax.swing.GroupLayout PaneAlterarProdutosLayout = new javax.swing.GroupLayout(PaneAlterarProdutos);
+        PaneAlterarProdutos.setLayout(PaneAlterarProdutosLayout);
+        PaneAlterarProdutosLayout.setHorizontalGroup(
+            PaneAlterarProdutosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(PaneAlterarProdutosLayout.createSequentialGroup()
+                .addGroup(PaneAlterarProdutosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(PaneAlterarProdutosLayout.createSequentialGroup()
+                        .addGap(40, 40, 40)
+                        .addGroup(PaneAlterarProdutosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(PaneAlterarProdutosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                .addGroup(PaneAlterarProdutosLayout.createSequentialGroup()
+                                    .addComponent(jLabel10, javax.swing.GroupLayout.DEFAULT_SIZE, 117, Short.MAX_VALUE)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                    .addComponent(txtCodigoAlterarProduto, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGroup(PaneAlterarProdutosLayout.createSequentialGroup()
+                                    .addComponent(jLabel12, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                    .addComponent(cbAtributoProduto, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                .addGroup(PaneAlterarProdutosLayout.createSequentialGroup()
+                                    .addComponent(jLabel13)
+                                    .addGap(60, 60, 60)
+                                    .addComponent(txtValorAlterarProduto)))
+                            .addComponent(cbExcluirProduto, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(PaneAlterarProdutosLayout.createSequentialGroup()
+                        .addContainerGap()
+                        .addGroup(PaneAlterarProdutosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(btnEVoltar2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(btnSalvarAlteracaoProduto, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 22, Short.MAX_VALUE)
+                .addGroup(PaneAlterarProdutosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PaneAlterarProdutosLayout.createSequentialGroup()
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 250, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(33, 33, 33)
+                        .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 244, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(28, 28, 28))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PaneAlterarProdutosLayout.createSequentialGroup()
+                        .addComponent(jLabel14)
+                        .addGap(101, 101, 101))))
+            .addGroup(PaneAlterarProdutosLayout.createSequentialGroup()
+                .addGap(380, 380, 380)
+                .addGroup(PaneAlterarProdutosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(PaneAlterarProdutosLayout.createSequentialGroup()
+                        .addGap(6, 6, 6)
+                        .addComponent(jLabel11))
+                    .addComponent(jLabel9))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        PaneAlterarProdutosLayout.setVerticalGroup(
+            PaneAlterarProdutosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(PaneAlterarProdutosLayout.createSequentialGroup()
+                .addGap(23, 23, 23)
+                .addComponent(jLabel9)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(PaneAlterarProdutosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, PaneAlterarProdutosLayout.createSequentialGroup()
+                        .addGroup(PaneAlterarProdutosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel10)
+                            .addComponent(txtCodigoAlterarProduto, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel11))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(PaneAlterarProdutosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(PaneAlterarProdutosLayout.createSequentialGroup()
+                                .addGroup(PaneAlterarProdutosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(jLabel12)
+                                    .addComponent(cbAtributoProduto, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGap(18, 18, 18)
+                                .addGroup(PaneAlterarProdutosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(txtValorAlterarProduto, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jLabel13))
+                                .addGap(18, 18, 18)
+                                .addComponent(cbExcluirProduto)
+                                .addGap(62, 62, 62)
+                                .addComponent(btnSalvarAlteracaoProduto, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(btnEVoltar2, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(jScrollPane1)))
+                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, PaneAlterarProdutosLayout.createSequentialGroup()
+                        .addComponent(jLabel14)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 285, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(122, Short.MAX_VALUE))
+        );
+
+        jTabbedPane1.addTab("Alterar Produtos", PaneAlterarProdutos);
+
+        javax.swing.GroupLayout frameEstoqueLayout = new javax.swing.GroupLayout(frameEstoque.getContentPane());
+        frameEstoque.getContentPane().setLayout(frameEstoqueLayout);
+        frameEstoqueLayout.setHorizontalGroup(
+            frameEstoqueLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jTabbedPane1)
+        );
+        frameEstoqueLayout.setVerticalGroup(
+            frameEstoqueLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jTabbedPane1)
+        );
+
+        frameVenda.setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        frameVenda.setMinimumSize(new java.awt.Dimension(880, 480));
+
+        btnVoltarVendasAtendentes.setText("Voltar");
+        btnVoltarVendasAtendentes.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnVoltarVendasAtendentesActionPerformed(evt);
+            }
+        });
+
+        jLabel53.setText("Codigo do atendente");
+
+        btnVisualizarHistoricoAtendente.setText("Visualizar");
+
+        jScrollPane12.setViewportView(listHistoricoVendasAtendente);
+
+        jLabel54.setText("Historico de vendas do atendente");
+
+        jLabel55.setText("Detalhes da Venda");
+
+        txtDetalhesVendaAtendente.setColumns(20);
+        txtDetalhesVendaAtendente.setRows(5);
+        jScrollPane13.setViewportView(txtDetalhesVendaAtendente);
+
+        javax.swing.GroupLayout paneVendasAtendentesLayout = new javax.swing.GroupLayout(paneVendasAtendentes);
+        paneVendasAtendentes.setLayout(paneVendasAtendentesLayout);
+        paneVendasAtendentesLayout.setHorizontalGroup(
+            paneVendasAtendentesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(paneVendasAtendentesLayout.createSequentialGroup()
+                .addGroup(paneVendasAtendentesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(paneVendasAtendentesLayout.createSequentialGroup()
+                        .addGroup(paneVendasAtendentesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addGroup(paneVendasAtendentesLayout.createSequentialGroup()
+                                .addContainerGap()
+                                .addComponent(btnVoltarVendasAtendentes, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(jScrollPane12, javax.swing.GroupLayout.PREFERRED_SIZE, 319, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(paneVendasAtendentesLayout.createSequentialGroup()
+                                .addGap(39, 39, 39)
+                                .addComponent(jLabel53)
+                                .addGap(39, 39, 39)
+                                .addComponent(txtCodigoAtendenteVendas, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(67, 67, 67)
+                                .addComponent(btnVisualizarHistoricoAtendente)))
+                        .addGap(47, 47, 47)
+                        .addComponent(jScrollPane13, javax.swing.GroupLayout.PREFERRED_SIZE, 236, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(paneVendasAtendentesLayout.createSequentialGroup()
+                        .addGap(241, 241, 241)
+                        .addComponent(jLabel54)
+                        .addGap(179, 179, 179)
+                        .addComponent(jLabel55)))
+                .addContainerGap(111, Short.MAX_VALUE))
+        );
+        paneVendasAtendentesLayout.setVerticalGroup(
+            paneVendasAtendentesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, paneVendasAtendentesLayout.createSequentialGroup()
+                .addGap(47, 47, 47)
+                .addGroup(paneVendasAtendentesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel53)
+                    .addComponent(txtCodigoAtendenteVendas, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnVisualizarHistoricoAtendente))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 25, Short.MAX_VALUE)
+                .addGroup(paneVendasAtendentesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel54)
+                    .addComponent(jLabel55))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(paneVendasAtendentesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jScrollPane13)
+                    .addComponent(btnVoltarVendasAtendentes, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jScrollPane12, javax.swing.GroupLayout.DEFAULT_SIZE, 200, Short.MAX_VALUE))
+                .addGap(131, 131, 131))
+        );
+
+        jTabbedPane2.addTab("Vendas Atendentes", paneVendasAtendentes);
+
+        btnVoltarVendasGeral.setText("Voltar");
+        btnVoltarVendasGeral.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnVoltarVendasGeralActionPerformed(evt);
+            }
+        });
+
+        jLabel48.setText("Vizualizar vendas de até");
+
+        jLabel49.setText("VENDAS GERAL");
+
+        cbPeriodoVendasGeral.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "3 meses", "6 meses", "9 meses", "12 meses" }));
+
+        jScrollPane10.setViewportView(listHistoricoVendasGeral);
+
+        jLabel50.setText("Historico Vendas");
+
+        jLabel51.setText("Detalhe Venda");
+
+        txtDetalheVendasGeral.setColumns(20);
+        txtDetalheVendasGeral.setRows(5);
+        jScrollPane11.setViewportView(txtDetalheVendasGeral);
+
+        btnGerarRelatorio.setText("Relatorio");
+
+        jLabel52.setText("Gerar relatorio de venda selecionada");
+
+        btnVizualizarVendasGeral.setText("Vizualizar");
+
+        javax.swing.GroupLayout paneVendasGeralLayout = new javax.swing.GroupLayout(paneVendasGeral);
+        paneVendasGeral.setLayout(paneVendasGeralLayout);
+        paneVendasGeralLayout.setHorizontalGroup(
+            paneVendasGeralLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(paneVendasGeralLayout.createSequentialGroup()
+                .addGroup(paneVendasGeralLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(paneVendasGeralLayout.createSequentialGroup()
+                        .addGap(368, 368, 368)
+                        .addComponent(jLabel49))
+                    .addGroup(paneVendasGeralLayout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(btnVoltarVendasGeral, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(99, 99, 99)
+                        .addGroup(paneVendasGeralLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(paneVendasGeralLayout.createSequentialGroup()
+                                .addGap(64, 64, 64)
+                                .addComponent(jLabel50)
+                                .addGap(207, 207, 207)
+                                .addComponent(jLabel51))
+                            .addGroup(paneVendasGeralLayout.createSequentialGroup()
+                                .addComponent(jScrollPane10, javax.swing.GroupLayout.PREFERRED_SIZE, 220, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(76, 76, 76)
+                                .addComponent(jScrollPane11, javax.swing.GroupLayout.PREFERRED_SIZE, 220, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                .addContainerGap(174, Short.MAX_VALUE))
+            .addGroup(paneVendasGeralLayout.createSequentialGroup()
+                .addGap(38, 38, 38)
+                .addComponent(jLabel48)
+                .addGap(40, 40, 40)
+                .addComponent(cbPeriodoVendasGeral, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(btnVizualizarVendasGeral)
+                .addGap(94, 94, 94)
+                .addComponent(jLabel52)
+                .addGap(18, 18, 18)
+                .addComponent(btnGerarRelatorio)
+                .addGap(0, 0, Short.MAX_VALUE))
+        );
+        paneVendasGeralLayout.setVerticalGroup(
+            paneVendasGeralLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, paneVendasGeralLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel49)
+                .addGap(24, 24, 24)
+                .addGroup(paneVendasGeralLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel48)
+                    .addComponent(cbPeriodoVendasGeral, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnGerarRelatorio)
+                    .addComponent(jLabel52)
+                    .addComponent(btnVizualizarVendasGeral))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 25, Short.MAX_VALUE)
+                .addGroup(paneVendasGeralLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel50)
+                    .addComponent(jLabel51))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(paneVendasGeralLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(btnVoltarVendasGeral, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jScrollPane10, javax.swing.GroupLayout.DEFAULT_SIZE, 200, Short.MAX_VALUE)
+                    .addComponent(jScrollPane11))
+                .addGap(132, 132, 132))
+        );
+
+        jTabbedPane2.addTab("Vendas Geral", paneVendasGeral);
+
+        javax.swing.GroupLayout frameVendaLayout = new javax.swing.GroupLayout(frameVenda.getContentPane());
+        frameVenda.getContentPane().setLayout(frameVendaLayout);
+        frameVendaLayout.setHorizontalGroup(
+            frameVendaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jTabbedPane2)
+        );
+        frameVendaLayout.setVerticalGroup(
+            frameVendaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jTabbedPane2, javax.swing.GroupLayout.Alignment.TRAILING)
+        );
+
+        frameCadastro.setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        frameCadastro.setMinimumSize(new java.awt.Dimension(880, 480));
+
+        btnCadastrarAtendente.setText("Atendente");
+        btnCadastrarAtendente.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnCadastrarAtendenteActionPerformed(evt);
+            }
+        });
+
+        btnCadastrarCliente.setText("Cliente");
+        btnCadastrarCliente.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnCadastrarClienteActionPerformed(evt);
+            }
+        });
+
+        jLabel15.setText("CADASTRAR");
+
+        btnCVoltar.setText("Voltar");
+        btnCVoltar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnCVoltarActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout frameCadastroLayout = new javax.swing.GroupLayout(frameCadastro.getContentPane());
+        frameCadastro.getContentPane().setLayout(frameCadastroLayout);
+        frameCadastroLayout.setHorizontalGroup(
+            frameCadastroLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(frameCadastroLayout.createSequentialGroup()
+                .addGroup(frameCadastroLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(frameCadastroLayout.createSequentialGroup()
+                        .addGap(236, 236, 236)
+                        .addComponent(btnCadastrarAtendente, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(186, 186, 186)
+                        .addComponent(btnCadastrarCliente, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(frameCadastroLayout.createSequentialGroup()
+                        .addGap(381, 381, 381)
+                        .addComponent(jLabel15))
+                    .addGroup(frameCadastroLayout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(btnCVoltar, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(267, Short.MAX_VALUE))
+        );
+        frameCadastroLayout.setVerticalGroup(
+            frameCadastroLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(frameCadastroLayout.createSequentialGroup()
+                .addGap(46, 46, 46)
+                .addComponent(jLabel15)
+                .addGap(127, 127, 127)
+                .addGroup(frameCadastroLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btnCadastrarAtendente, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnCadastrarCliente, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 120, Short.MAX_VALUE)
+                .addComponent(btnCVoltar, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(101, 101, 101))
+        );
+
+        frameCadastrarAtendente.setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        frameCadastrarAtendente.setMinimumSize(new java.awt.Dimension(880, 480));
+
+        btnCAVolar.setText("Voltar");
+        btnCAVolar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnCAVolarActionPerformed(evt);
+            }
+        });
+
+        jLabel16.setText("CADASTRO DE ATENDENTE");
+
+        jLabel17.setText("Nome");
+
+        jLabel18.setText("CPF");
+
+        jLabel19.setText("Idade");
+
+        jLabel20.setText("Codigo Atendente");
+
+        jLabel21.setText("Salario");
+
+        jLabel22.setText("Cargo");
+
+        jLabel23.setText("Telefone");
+
+        jLabel24.setText("Email");
+
+        jLabel25.setText("Ativo");
+
+        cbCargoAtendente.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Atendente", "Gerente" }));
+
+        rbAtivoAtendenteSim.setText("Sim");
+
+        rbAtivoAtendenteNao.setText("Nao");
+
+        jScrollPane3.setViewportView(listAtendentesCadastrados);
+
+        jLabel26.setText("Atendentes Cadastrados");
+
+        btnSalvarCadastroAtendente.setText("Salvar");
+
+        javax.swing.GroupLayout paneCadastrarAtendenteLayout = new javax.swing.GroupLayout(paneCadastrarAtendente);
+        paneCadastrarAtendente.setLayout(paneCadastrarAtendenteLayout);
+        paneCadastrarAtendenteLayout.setHorizontalGroup(
+            paneCadastrarAtendenteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(paneCadastrarAtendenteLayout.createSequentialGroup()
+                .addGroup(paneCadastrarAtendenteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(paneCadastrarAtendenteLayout.createSequentialGroup()
+                        .addGap(356, 356, 356)
+                        .addComponent(jLabel16))
+                    .addGroup(paneCadastrarAtendenteLayout.createSequentialGroup()
+                        .addGroup(paneCadastrarAtendenteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(paneCadastrarAtendenteLayout.createSequentialGroup()
+                                .addGap(74, 74, 74)
+                                .addGroup(paneCadastrarAtendenteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, paneCadastrarAtendenteLayout.createSequentialGroup()
+                                        .addComponent(jLabel20)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(txtCodigoAtendente, javax.swing.GroupLayout.DEFAULT_SIZE, 119, Short.MAX_VALUE))
+                                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, paneCadastrarAtendenteLayout.createSequentialGroup()
+                                        .addGroup(paneCadastrarAtendenteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(jLabel17)
+                                            .addComponent(jLabel18)
+                                            .addComponent(jLabel19))
+                                        .addGap(29, 29, 29)
+                                        .addGroup(paneCadastrarAtendenteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                            .addComponent(txtNomeAtendente)
+                                            .addComponent(txtCPFAtendente)
+                                            .addComponent(txtIdadeAtendente, javax.swing.GroupLayout.DEFAULT_SIZE, 160, Short.MAX_VALUE)))
+                                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, paneCadastrarAtendenteLayout.createSequentialGroup()
+                                        .addGroup(paneCadastrarAtendenteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(jLabel22)
+                                            .addComponent(jLabel21))
+                                        .addGap(25, 25, 25)
+                                        .addGroup(paneCadastrarAtendenteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(cbCargoAtendente, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                            .addComponent(txtSalarioAtendente))))
+                                .addGap(101, 101, 101)
+                                .addGroup(paneCadastrarAtendenteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(paneCadastrarAtendenteLayout.createSequentialGroup()
+                                        .addGroup(paneCadastrarAtendenteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(jLabel24)
+                                            .addComponent(jLabel23))
+                                        .addGap(18, 18, 18)
+                                        .addGroup(paneCadastrarAtendenteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                            .addComponent(txtEmailAtendente)
+                                            .addComponent(txtTelefoneAtendente, javax.swing.GroupLayout.DEFAULT_SIZE, 130, Short.MAX_VALUE)))
+                                    .addGroup(paneCadastrarAtendenteLayout.createSequentialGroup()
+                                        .addComponent(jLabel25)
+                                        .addGap(18, 18, 18)
+                                        .addGroup(paneCadastrarAtendenteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(btnSalvarCadastroAtendente, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addGroup(paneCadastrarAtendenteLayout.createSequentialGroup()
+                                                .addComponent(rbAtivoAtendenteSim)
+                                                .addGap(18, 18, 18)
+                                                .addComponent(rbAtivoAtendenteNao))))))
+                            .addGroup(paneCadastrarAtendenteLayout.createSequentialGroup()
+                                .addContainerGap()
+                                .addComponent(btnCAVolar, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGap(33, 33, 33)
+                        .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 220, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(143, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, paneCadastrarAtendenteLayout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addComponent(jLabel26)
+                .addGap(184, 184, 184))
+        );
+        paneCadastrarAtendenteLayout.setVerticalGroup(
+            paneCadastrarAtendenteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, paneCadastrarAtendenteLayout.createSequentialGroup()
+                .addGroup(paneCadastrarAtendenteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addGroup(paneCadastrarAtendenteLayout.createSequentialGroup()
+                        .addGap(44, 44, 44)
+                        .addComponent(jLabel26)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jScrollPane3))
+                    .addGroup(paneCadastrarAtendenteLayout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jLabel16)
+                        .addGap(44, 44, 44)
+                        .addGroup(paneCadastrarAtendenteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(paneCadastrarAtendenteLayout.createSequentialGroup()
+                                .addGroup(paneCadastrarAtendenteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(jLabel17)
+                                    .addComponent(txtNomeAtendente, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGap(18, 18, 18)
+                                .addGroup(paneCadastrarAtendenteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(jLabel18)
+                                    .addComponent(txtCPFAtendente, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGap(18, 18, 18)
+                                .addGroup(paneCadastrarAtendenteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(jLabel19)
+                                    .addComponent(txtIdadeAtendente, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addGroup(paneCadastrarAtendenteLayout.createSequentialGroup()
+                                .addGroup(paneCadastrarAtendenteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(jLabel23)
+                                    .addComponent(txtTelefoneAtendente, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGap(18, 18, 18)
+                                .addGroup(paneCadastrarAtendenteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(jLabel24)
+                                    .addComponent(txtEmailAtendente, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGap(18, 18, 18)
+                                .addGroup(paneCadastrarAtendenteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(jLabel25)
+                                    .addComponent(rbAtivoAtendenteSim)
+                                    .addComponent(rbAtivoAtendenteNao))))
+                        .addGap(18, 18, 18)
+                        .addGroup(paneCadastrarAtendenteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel20)
+                            .addComponent(txtCodigoAtendente, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(18, 18, 18)
+                        .addGroup(paneCadastrarAtendenteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel21)
+                            .addComponent(txtSalarioAtendente, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(btnSalvarCadastroAtendente, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(18, 18, 18)
+                        .addGroup(paneCadastrarAtendenteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel22)
+                            .addComponent(cbCargoAtendente, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(btnCAVolar, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(120, 120, 120))
+        );
+
+        tpAtendente.addTab("Cadastrar Atendente", paneCadastrarAtendente);
+
+        btnADAVoltar.setText("Voltar");
+        btnADAVoltar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnADAVoltarActionPerformed(evt);
+            }
+        });
+
+        jLabel27.setText("ALTERAR DADOS ATENDENTE");
+
+        jLabel28.setText("Codigo Atendente");
+
+        jLabel29.setText("Dados a modificar");
+
+        cbAtributosAtendenteAlterar.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Nome", "CPF", "Idade", "Email", "Cargo", "Telefone", "Salario", "Ativo" }));
+
+        jLabel30.setText("Novos valores");
+
+        jScrollPane4.setViewportView(listAtendentesCadastradosAlterarDados);
+
+        jLabel31.setText("Atendentes Cadastrados");
+
+        jLabel32.setText("Detalhes Atendente");
+
+        txtDetalhesAtendente.setColumns(20);
+        txtDetalhesAtendente.setRows(5);
+        jScrollPane5.setViewportView(txtDetalhesAtendente);
+
+        btnSalvarAlterarDadosAtendente.setText("Salvar");
+
+        javax.swing.GroupLayout paneAlterarDadosAtendenteLayout = new javax.swing.GroupLayout(paneAlterarDadosAtendente);
+        paneAlterarDadosAtendente.setLayout(paneAlterarDadosAtendenteLayout);
+        paneAlterarDadosAtendenteLayout.setHorizontalGroup(
+            paneAlterarDadosAtendenteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(paneAlterarDadosAtendenteLayout.createSequentialGroup()
+                .addGroup(paneAlterarDadosAtendenteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(paneAlterarDadosAtendenteLayout.createSequentialGroup()
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jLabel32)
+                        .addGap(93, 93, 93))
+                    .addGroup(paneAlterarDadosAtendenteLayout.createSequentialGroup()
+                        .addGroup(paneAlterarDadosAtendenteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(paneAlterarDadosAtendenteLayout.createSequentialGroup()
+                                .addGap(81, 81, 81)
+                                .addGroup(paneAlterarDadosAtendenteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabel28)
+                                    .addComponent(jLabel29)
+                                    .addComponent(jLabel30))
+                                .addGap(42, 42, 42)
+                                .addGroup(paneAlterarDadosAtendenteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                    .addComponent(btnCodigoAtendenteAlterar)
+                                    .addComponent(cbAtributosAtendenteAlterar, 0, 140, Short.MAX_VALUE)
+                                    .addComponent(txtNovosValoresAtendente)))
+                            .addGroup(paneAlterarDadosAtendenteLayout.createSequentialGroup()
+                                .addGap(156, 156, 156)
+                                .addComponent(btnSalvarAlterarDadosAtendente, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 43, Short.MAX_VALUE)
+                        .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(46, 46, 46)))
+                .addGroup(paneAlterarDadosAtendenteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, paneAlterarDadosAtendenteLayout.createSequentialGroup()
+                        .addGap(31, 31, 31)
+                        .addComponent(jLabel31)
+                        .addGap(41, 41, 41)))
+                .addGap(137, 137, 137))
+            .addGroup(paneAlterarDadosAtendenteLayout.createSequentialGroup()
+                .addGroup(paneAlterarDadosAtendenteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(paneAlterarDadosAtendenteLayout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(btnADAVoltar, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(paneAlterarDadosAtendenteLayout.createSequentialGroup()
+                        .addGap(346, 346, 346)
+                        .addComponent(jLabel27)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        paneAlterarDadosAtendenteLayout.setVerticalGroup(
+            paneAlterarDadosAtendenteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, paneAlterarDadosAtendenteLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel27)
+                .addGap(12, 12, 12)
+                .addGroup(paneAlterarDadosAtendenteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel31)
+                    .addComponent(jLabel32))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(paneAlterarDadosAtendenteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addGroup(paneAlterarDadosAtendenteLayout.createSequentialGroup()
+                        .addGroup(paneAlterarDadosAtendenteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel28)
+                            .addComponent(btnCodigoAtendenteAlterar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(33, 33, 33)
+                        .addGroup(paneAlterarDadosAtendenteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel29)
+                            .addComponent(cbAtributosAtendenteAlterar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(30, 30, 30)
+                        .addGroup(paneAlterarDadosAtendenteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel30)
+                            .addComponent(txtNovosValoresAtendente, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(btnSalvarAlterarDadosAtendente, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jScrollPane5, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 51, Short.MAX_VALUE)
+                .addComponent(btnADAVoltar, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(120, 120, 120))
+        );
+
+        tpAtendente.addTab("Alterar Dados", paneAlterarDadosAtendente);
+
+        javax.swing.GroupLayout frameCadastrarAtendenteLayout = new javax.swing.GroupLayout(frameCadastrarAtendente.getContentPane());
+        frameCadastrarAtendente.getContentPane().setLayout(frameCadastrarAtendenteLayout);
+        frameCadastrarAtendenteLayout.setHorizontalGroup(
+            frameCadastrarAtendenteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(tpAtendente)
+        );
+        frameCadastrarAtendenteLayout.setVerticalGroup(
+            frameCadastrarAtendenteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(tpAtendente)
+        );
+
+        frameCadastrarCliente.setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        frameCadastrarCliente.setMinimumSize(new java.awt.Dimension(880, 480));
+
+        btnADCVoltar.setText("Voltar");
+        btnADCVoltar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnADCVoltarActionPerformed(evt);
+            }
+        });
+
+        jLabel41.setText("ALTERAR DADOS");
+
+        jLabel42.setText("CPF Cliente");
+
+        jLabel43.setText("Dado a ser alterado");
+
+        jLabel44.setText("Novo dado");
+
+        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Nome", "CPF", "Idade", "Telefone", "Email", "Ativo" }));
+
+        cbExcluirCliente.setText("Excluir Cliente");
+
+        btnSalvarAlterarDadosCliente.setText("Salvar");
+
+        jScrollPane7.setViewportView(listClientesCadastradosAlterarDados);
+
+        jLabel45.setText("Clientes Cadastrados");
+
+        jLabel46.setText("Detalhe Cliente");
+
+        txtDetalheClienteAlterarDadoCliente.setColumns(20);
+        txtDetalheClienteAlterarDadoCliente.setRows(5);
+        jScrollPane8.setViewportView(txtDetalheClienteAlterarDadoCliente);
+
+        javax.swing.GroupLayout paneAlterarDadosClienteLayout = new javax.swing.GroupLayout(paneAlterarDadosCliente);
+        paneAlterarDadosCliente.setLayout(paneAlterarDadosClienteLayout);
+        paneAlterarDadosClienteLayout.setHorizontalGroup(
+            paneAlterarDadosClienteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(paneAlterarDadosClienteLayout.createSequentialGroup()
+                .addGroup(paneAlterarDadosClienteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(paneAlterarDadosClienteLayout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(btnADCVoltar, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(paneAlterarDadosClienteLayout.createSequentialGroup()
+                        .addGap(375, 375, 375)
+                        .addComponent(jLabel41)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(paneAlterarDadosClienteLayout.createSequentialGroup()
+                .addGap(80, 80, 80)
+                .addGroup(paneAlterarDadosClienteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(paneAlterarDadosClienteLayout.createSequentialGroup()
+                        .addComponent(cbExcluirCliente)
+                        .addGap(43, 43, 43)
+                        .addComponent(btnSalvarAlterarDadosCliente, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(paneAlterarDadosClienteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addGroup(paneAlterarDadosClienteLayout.createSequentialGroup()
+                            .addComponent(jLabel43)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(jComboBox1, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addGroup(paneAlterarDadosClienteLayout.createSequentialGroup()
+                            .addComponent(jLabel42)
+                            .addGap(18, 18, 18)
+                            .addComponent(txtAlterarDadosCPFCliente, javax.swing.GroupLayout.PREFERRED_SIZE, 165, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGroup(paneAlterarDadosClienteLayout.createSequentialGroup()
+                            .addComponent(jLabel44)
+                            .addGap(18, 18, 18)
+                            .addComponent(txtNovoDadoAlterarDadoCliente))))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 51, Short.MAX_VALUE)
+                .addComponent(jScrollPane8, javax.swing.GroupLayout.PREFERRED_SIZE, 222, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, Short.MAX_VALUE)
+                .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, 220, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(57, 57, 57))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, paneAlterarDadosClienteLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel46)
+                .addGap(147, 147, 147)
+                .addComponent(jLabel45)
+                .addGap(112, 112, 112))
+        );
+        paneAlterarDadosClienteLayout.setVerticalGroup(
+            paneAlterarDadosClienteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, paneAlterarDadosClienteLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel41)
+                .addGap(8, 8, 8)
+                .addGroup(paneAlterarDadosClienteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel45)
+                    .addComponent(jLabel46))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(paneAlterarDadosClienteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(paneAlterarDadosClienteLayout.createSequentialGroup()
+                        .addGroup(paneAlterarDadosClienteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel42)
+                            .addComponent(txtAlterarDadosCPFCliente, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(18, 18, 18)
+                        .addGroup(paneAlterarDadosClienteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel43)
+                            .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(18, 18, 18)
+                        .addGroup(paneAlterarDadosClienteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel44)
+                            .addComponent(txtNovoDadoAlterarDadoCliente, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(18, 18, 18)
+                        .addGroup(paneAlterarDadosClienteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(cbExcluirCliente)
+                            .addComponent(btnSalvarAlterarDadosCliente, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, 210, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jScrollPane8, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 210, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 41, Short.MAX_VALUE)
+                .addComponent(btnADCVoltar, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(109, 109, 109))
+        );
+
+        tpCliente.addTab("Alterar Dados", paneAlterarDadosCliente);
+
+        btnCCVoltar.setText("Voltar");
+        btnCCVoltar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnCCVoltarActionPerformed(evt);
+            }
+        });
+
+        jLabel33.setText("CADASTRAR CLIENTE");
+
+        jLabel34.setText("Nome");
+
+        jLabel35.setText("CPF");
+
+        jLabel36.setText("Idade");
+
+        jLabel37.setText("Ativo");
+
+        jLabel38.setText("Telefone");
+
+        jLabel39.setText("Email");
+
+        rbAtivoClienteSim.setText("Sim");
+
+        rbAtivoClienteNao.setText("Nao");
+
+        jScrollPane6.setViewportView(listClientesCadastrados);
+
+        jLabel40.setText("Clientes Cadastrados");
+
+        btnSalvarCadastroCliente.setText("Salvar");
+
+        javax.swing.GroupLayout paneCadastrarClienteLayout = new javax.swing.GroupLayout(paneCadastrarCliente);
+        paneCadastrarCliente.setLayout(paneCadastrarClienteLayout);
+        paneCadastrarClienteLayout.setHorizontalGroup(
+            paneCadastrarClienteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(paneCadastrarClienteLayout.createSequentialGroup()
+                .addGap(127, 127, 127)
+                .addGroup(paneCadastrarClienteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addGroup(paneCadastrarClienteLayout.createSequentialGroup()
+                        .addGroup(paneCadastrarClienteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel34)
+                            .addComponent(jLabel35))
+                        .addGap(18, 18, 18)
+                        .addGroup(paneCadastrarClienteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(txtNomeCliente)
+                            .addComponent(txtCPFCliente, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(paneCadastrarClienteLayout.createSequentialGroup()
+                        .addGroup(paneCadastrarClienteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel36)
+                            .addComponent(jLabel38)
+                            .addComponent(jLabel39)
+                            .addComponent(jLabel37))
+                        .addGap(18, 18, 18)
+                        .addGroup(paneCadastrarClienteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(paneCadastrarClienteLayout.createSequentialGroup()
+                                .addComponent(rbAtivoClienteSim)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(rbAtivoClienteNao))
+                            .addGroup(paneCadastrarClienteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(txtIdadeCliente)
+                                .addComponent(txtTelefoneCliente)
+                                .addComponent(txtEmailCliente, javax.swing.GroupLayout.PREFERRED_SIZE, 128, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 150, Short.MAX_VALUE)
+                .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 260, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(164, 164, 164))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, paneCadastrarClienteLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel40)
+                .addGap(241, 241, 241))
+            .addGroup(paneCadastrarClienteLayout.createSequentialGroup()
+                .addGroup(paneCadastrarClienteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(paneCadastrarClienteLayout.createSequentialGroup()
+                        .addGap(375, 375, 375)
+                        .addComponent(jLabel33))
+                    .addGroup(paneCadastrarClienteLayout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(btnCCVoltar, javax.swing.GroupLayout.PREFERRED_SIZE, 84, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(261, 261, 261)
+                        .addComponent(btnSalvarCadastroCliente, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        paneCadastrarClienteLayout.setVerticalGroup(
+            paneCadastrarClienteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, paneCadastrarClienteLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel33)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 24, Short.MAX_VALUE)
+                .addComponent(jLabel40)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(paneCadastrarClienteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(paneCadastrarClienteLayout.createSequentialGroup()
+                        .addGroup(paneCadastrarClienteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel34)
+                            .addComponent(txtNomeCliente, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(18, 18, 18)
+                        .addGroup(paneCadastrarClienteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel35)
+                            .addComponent(txtCPFCliente, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(18, 18, 18)
+                        .addGroup(paneCadastrarClienteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel36)
+                            .addComponent(txtIdadeCliente, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(18, 18, 18)
+                        .addGroup(paneCadastrarClienteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel37)
+                            .addComponent(rbAtivoClienteSim)
+                            .addComponent(rbAtivoClienteNao))
+                        .addGap(18, 18, 18)
+                        .addGroup(paneCadastrarClienteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel38)
+                            .addComponent(txtTelefoneCliente, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(paneCadastrarClienteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel39)
+                            .addComponent(txtEmailCliente, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(11, 11, 11)
+                        .addGroup(paneCadastrarClienteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(btnCCVoltar, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(btnSalvarCadastroCliente, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 222, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(125, 125, 125))
+        );
+
+        tpCliente.addTab("Cadastrar Cliente", paneCadastrarCliente);
+
+        javax.swing.GroupLayout frameCadastrarClienteLayout = new javax.swing.GroupLayout(frameCadastrarCliente.getContentPane());
+        frameCadastrarCliente.getContentPane().setLayout(frameCadastrarClienteLayout);
+        frameCadastrarClienteLayout.setHorizontalGroup(
+            frameCadastrarClienteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(tpCliente)
+        );
+        frameCadastrarClienteLayout.setVerticalGroup(
+            frameCadastrarClienteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(tpCliente)
+        );
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setMinimumSize(new java.awt.Dimension(880, 480));
+
+        btnEstoque.setText("Estoque");
+        btnEstoque.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnEstoqueActionPerformed(evt);
+            }
+        });
+
+        btnVendas.setText("Vendas");
+        btnVendas.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnVendasActionPerformed(evt);
+            }
+        });
+
+        btnCadastro.setText("Cadastro");
+        btnCadastro.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnCadastroActionPerformed(evt);
+            }
+        });
+
+        jLabel1.setText("Gerente");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(390, 390, 390)
+                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 57, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(125, 125, 125)
+                        .addComponent(btnEstoque, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(136, 136, 136)
+                        .addComponent(btnVendas, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(154, 154, 154)
+                        .addComponent(btnCadastro, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(165, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addGap(22, 22, 22)
+                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(138, 138, 138)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btnEstoque, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnVendas, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnCadastro, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(241, Short.MAX_VALUE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void btnEstoqueActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEstoqueActionPerformed
+        frameEstoque.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_btnEstoqueActionPerformed
+
+    private void btnVendasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnVendasActionPerformed
+        frameVenda.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_btnVendasActionPerformed
+
+    private void btnCadastroActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCadastroActionPerformed
+        frameCadastro.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_btnCadastroActionPerformed
+
+    private void btnVoltarVendasGeralActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnVoltarVendasGeralActionPerformed
+        Gerente ger = new Gerente();
+        ger.setVisible(true);
+        frameVenda.dispose();
+    }//GEN-LAST:event_btnVoltarVendasGeralActionPerformed
+
+    private void btnEVoltar2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEVoltar2ActionPerformed
+        Gerente ger = new Gerente();
+        ger.setVisible(true);
+        frameEstoque.dispose();
+    }//GEN-LAST:event_btnEVoltar2ActionPerformed
+
+    private void btnEVoltar1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEVoltar1ActionPerformed
+        Gerente ger = new Gerente();
+        ger.setVisible(true);
+        frameEstoque.dispose();
+    }//GEN-LAST:event_btnEVoltar1ActionPerformed
+
+    private void cbCorProdutoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cbCorProdutoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_cbCorProdutoActionPerformed
+
+    private void cbCorProdutoItemStateChanged(java.awt.event.ItemEvent evt) {//GEN-FIRST:event_cbCorProdutoItemStateChanged
+        // TODO add your handling code here:
+    }//GEN-LAST:event_cbCorProdutoItemStateChanged
+
+    private void txtCodigoAlterarProdutoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtCodigoAlterarProdutoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtCodigoAlterarProdutoActionPerformed
+
+    private void btnSalvarCadastroProdutoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSalvarCadastroProdutoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnSalvarCadastroProdutoActionPerformed
+
+    private void btnCadastrarAtendenteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCadastrarAtendenteActionPerformed
+        frameCadastrarAtendente.setVisible(true);
+        frameCadastro.dispose();
+    }//GEN-LAST:event_btnCadastrarAtendenteActionPerformed
+
+    private void btnCadastrarClienteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCadastrarClienteActionPerformed
+        frameCadastrarCliente.setVisible(true);
+        frameCadastro.dispose();
+    }//GEN-LAST:event_btnCadastrarClienteActionPerformed
+
+    private void btnCVoltarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCVoltarActionPerformed
+        Gerente ger = new Gerente();
+        ger.setVisible(true);
+        frameCadastro.dispose();
+    }//GEN-LAST:event_btnCVoltarActionPerformed
+
+    private void btnCCVoltarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCCVoltarActionPerformed
+        Gerente ger = new Gerente();
+        frameCadastro.setVisible(true);
+        frameCadastrarCliente.dispose();
+    }//GEN-LAST:event_btnCCVoltarActionPerformed
+
+    private void btnCAVolarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCAVolarActionPerformed
+        Gerente ger = new Gerente();
+        frameCadastro.setVisible(true);
+        frameCadastrarAtendente.dispose();
+    }//GEN-LAST:event_btnCAVolarActionPerformed
+
+    private void btnADAVoltarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnADAVoltarActionPerformed
+        Gerente ger = new Gerente();
+        frameCadastro.setVisible(true);
+        frameCadastrarAtendente.dispose();
+    }//GEN-LAST:event_btnADAVoltarActionPerformed
+
+    private void btnADCVoltarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnADCVoltarActionPerformed
+        frameCadastro.setVisible(true);
+        frameCadastrarCliente.dispose();
+    }//GEN-LAST:event_btnADCVoltarActionPerformed
+
+    private void btnVoltarVendasAtendentesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnVoltarVendasAtendentesActionPerformed
+        Gerente ger = new Gerente();
+        ger.setVisible(true);
+        frameVenda.dispose();
+    }//GEN-LAST:event_btnVoltarVendasAtendentesActionPerformed
 
     /**
      * @param args the command line arguments
@@ -78,5 +1439,163 @@ public class Gerente extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JList<String> ListProdutosCadastradosAlterarProduto;
+    private javax.swing.JPanel PaneAlterarProdutos;
+    private javax.swing.JPanel PaneCadastrarProdutos;
+    private javax.swing.JButton btnADAVoltar;
+    private javax.swing.JButton btnADCVoltar;
+    private javax.swing.JButton btnCAVolar;
+    private javax.swing.JButton btnCCVoltar;
+    private javax.swing.JButton btnCVoltar;
+    private javax.swing.JButton btnCadastrarAtendente;
+    private javax.swing.JButton btnCadastrarCliente;
+    private javax.swing.JButton btnCadastro;
+    private javax.swing.JTextField btnCodigoAtendenteAlterar;
+    private javax.swing.JButton btnEVoltar1;
+    private javax.swing.JButton btnEVoltar2;
+    private javax.swing.JButton btnEstoque;
+    private javax.swing.JButton btnGerarRelatorio;
+    private javax.swing.JButton btnSalvarAlteracaoProduto;
+    private javax.swing.JButton btnSalvarAlterarDadosAtendente;
+    private javax.swing.JButton btnSalvarAlterarDadosCliente;
+    private javax.swing.JButton btnSalvarCadastroAtendente;
+    private javax.swing.JButton btnSalvarCadastroCliente;
+    private javax.swing.JButton btnSalvarCadastroProduto;
+    private javax.swing.JButton btnVendas;
+    private javax.swing.JButton btnVisualizarHistoricoAtendente;
+    private javax.swing.JButton btnVizualizarVendasGeral;
+    private javax.swing.JButton btnVoltarVendasAtendentes;
+    private javax.swing.JButton btnVoltarVendasGeral;
+    private javax.swing.JComboBox<String> cbAtributoProduto;
+    private javax.swing.JComboBox<String> cbAtributosAtendenteAlterar;
+    private javax.swing.JComboBox<String> cbCargoAtendente;
+    private javax.swing.JComboBox<String> cbCorProduto;
+    private javax.swing.JCheckBox cbExcluirCliente;
+    private javax.swing.JCheckBox cbExcluirProduto;
+    private javax.swing.JComboBox<String> cbPeriodoVendasGeral;
+    private javax.swing.JComboBox<String> cbTamanhoProduto;
+    private javax.swing.JFrame frameCadastrarAtendente;
+    private javax.swing.JFrame frameCadastrarCliente;
+    private javax.swing.JFrame frameCadastro;
+    private javax.swing.JFrame frameEstoque;
+    private javax.swing.JFrame frameVenda;
+    private javax.swing.JComboBox<String> jComboBox1;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel13;
+    private javax.swing.JLabel jLabel14;
+    private javax.swing.JLabel jLabel15;
+    private javax.swing.JLabel jLabel16;
+    private javax.swing.JLabel jLabel17;
+    private javax.swing.JLabel jLabel18;
+    private javax.swing.JLabel jLabel19;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel20;
+    private javax.swing.JLabel jLabel21;
+    private javax.swing.JLabel jLabel22;
+    private javax.swing.JLabel jLabel23;
+    private javax.swing.JLabel jLabel24;
+    private javax.swing.JLabel jLabel25;
+    private javax.swing.JLabel jLabel26;
+    private javax.swing.JLabel jLabel27;
+    private javax.swing.JLabel jLabel28;
+    private javax.swing.JLabel jLabel29;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel30;
+    private javax.swing.JLabel jLabel31;
+    private javax.swing.JLabel jLabel32;
+    private javax.swing.JLabel jLabel33;
+    private javax.swing.JLabel jLabel34;
+    private javax.swing.JLabel jLabel35;
+    private javax.swing.JLabel jLabel36;
+    private javax.swing.JLabel jLabel37;
+    private javax.swing.JLabel jLabel38;
+    private javax.swing.JLabel jLabel39;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel40;
+    private javax.swing.JLabel jLabel41;
+    private javax.swing.JLabel jLabel42;
+    private javax.swing.JLabel jLabel43;
+    private javax.swing.JLabel jLabel44;
+    private javax.swing.JLabel jLabel45;
+    private javax.swing.JLabel jLabel46;
+    private javax.swing.JLabel jLabel47;
+    private javax.swing.JLabel jLabel48;
+    private javax.swing.JLabel jLabel49;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel50;
+    private javax.swing.JLabel jLabel51;
+    private javax.swing.JLabel jLabel52;
+    private javax.swing.JLabel jLabel53;
+    private javax.swing.JLabel jLabel54;
+    private javax.swing.JLabel jLabel55;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
+    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JScrollPane jScrollPane10;
+    private javax.swing.JScrollPane jScrollPane11;
+    private javax.swing.JScrollPane jScrollPane12;
+    private javax.swing.JScrollPane jScrollPane13;
+    private javax.swing.JScrollPane jScrollPane2;
+    private javax.swing.JScrollPane jScrollPane3;
+    private javax.swing.JScrollPane jScrollPane4;
+    private javax.swing.JScrollPane jScrollPane5;
+    private javax.swing.JScrollPane jScrollPane6;
+    private javax.swing.JScrollPane jScrollPane7;
+    private javax.swing.JScrollPane jScrollPane8;
+    private javax.swing.JScrollPane jScrollPane9;
+    private javax.swing.JTabbedPane jTabbedPane1;
+    private javax.swing.JTabbedPane jTabbedPane2;
+    private javax.swing.JList<String> listAtendentesCadastrados;
+    private javax.swing.JList<String> listAtendentesCadastradosAlterarDados;
+    private javax.swing.JList<String> listClientesCadastrados;
+    private javax.swing.JList<String> listClientesCadastradosAlterarDados;
+    private javax.swing.JList<String> listHistoricoVendasAtendente;
+    private javax.swing.JList<String> listHistoricoVendasGeral;
+    private javax.swing.JList<String> listProdutosCadastrados;
+    private javax.swing.JPanel paneAlterarDadosAtendente;
+    private javax.swing.JPanel paneAlterarDadosCliente;
+    private javax.swing.JPanel paneCadastrarAtendente;
+    private javax.swing.JPanel paneCadastrarCliente;
+    private javax.swing.JPanel paneVendasAtendentes;
+    private javax.swing.JPanel paneVendasGeral;
+    private javax.swing.JRadioButton rbAtivoAtendenteNao;
+    private javax.swing.JRadioButton rbAtivoAtendenteSim;
+    private javax.swing.JRadioButton rbAtivoClienteNao;
+    private javax.swing.JRadioButton rbAtivoClienteSim;
+    private javax.swing.JRadioButton rbProdutoFeminino;
+    private javax.swing.JRadioButton rbProdutoMasculino;
+    private javax.swing.JTabbedPane tpAtendente;
+    private javax.swing.JTabbedPane tpCliente;
+    private javax.swing.JTextField txtAlterarDadosCPFCliente;
+    private javax.swing.JTextField txtCPFAtendente;
+    private javax.swing.JTextField txtCPFCliente;
+    private javax.swing.JTextField txtCodigoAlterarProduto;
+    private javax.swing.JTextField txtCodigoAtendente;
+    private javax.swing.JTextField txtCodigoAtendenteVendas;
+    private javax.swing.JTextField txtCodigoProduto;
+    private javax.swing.JTextArea txtDetalheClienteAlterarDadoCliente;
+    private javax.swing.JTextArea txtDetalheVendasGeral;
+    private javax.swing.JTextArea txtDetalhesAtendente;
+    private javax.swing.JTextArea txtDetalhesProdutoAlterarProduto;
+    private javax.swing.JTextArea txtDetalhesVendaAtendente;
+    private javax.swing.JTextField txtEmailAtendente;
+    private javax.swing.JTextField txtEmailCliente;
+    private javax.swing.JTextField txtIdadeAtendente;
+    private javax.swing.JTextField txtIdadeCliente;
+    private javax.swing.JTextField txtNomeAtendente;
+    private javax.swing.JTextField txtNomeCliente;
+    private javax.swing.JTextField txtNomeProduto;
+    private javax.swing.JTextField txtNovoDadoAlterarDadoCliente;
+    private javax.swing.JTextField txtNovosValoresAtendente;
+    private javax.swing.JTextField txtQuantidadeProduto;
+    private javax.swing.JTextField txtSalarioAtendente;
+    private javax.swing.JTextField txtTelefoneAtendente;
+    private javax.swing.JTextField txtTelefoneCliente;
+    private javax.swing.JTextField txtValorAlterarProduto;
     // End of variables declaration//GEN-END:variables
 }
