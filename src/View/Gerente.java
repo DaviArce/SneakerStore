@@ -184,6 +184,7 @@ public class Gerente extends javax.swing.JFrame {
         btnVendas = new javax.swing.JButton();
         btnCadastro = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
+        btnVoltarGerente = new javax.swing.JButton();
 
         frameEstoque.setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         frameEstoque.setMinimumSize(new java.awt.Dimension(880, 480));
@@ -1273,7 +1274,14 @@ public class Gerente extends javax.swing.JFrame {
             }
         });
 
-        jLabel1.setText("Gerente");
+        jLabel1.setText("GERENTE");
+
+        btnVoltarGerente.setText("Voltar");
+        btnVoltarGerente.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnVoltarGerenteActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -1290,7 +1298,10 @@ public class Gerente extends javax.swing.JFrame {
                         .addGap(136, 136, 136)
                         .addComponent(btnVendas, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(154, 154, 154)
-                        .addComponent(btnCadastro, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(btnCadastro, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(btnVoltarGerente, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(165, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -1303,7 +1314,9 @@ public class Gerente extends javax.swing.JFrame {
                     .addComponent(btnEstoque, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(btnVendas, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(btnCadastro, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(241, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 121, Short.MAX_VALUE)
+                .addComponent(btnVoltarGerente, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(85, 85, 85))
         );
 
         pack();
@@ -1403,6 +1416,12 @@ public class Gerente extends javax.swing.JFrame {
         frameVenda.dispose();
     }//GEN-LAST:event_btnVoltarVendasAtendentesActionPerformed
 
+    private void btnVoltarGerenteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnVoltarGerenteActionPerformed
+        Main m = new Main();
+        m.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_btnVoltarGerenteActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -1464,6 +1483,7 @@ public class Gerente extends javax.swing.JFrame {
     private javax.swing.JButton btnVendas;
     private javax.swing.JButton btnVisualizarHistoricoAtendente;
     private javax.swing.JButton btnVizualizarVendasGeral;
+    private javax.swing.JButton btnVoltarGerente;
     private javax.swing.JButton btnVoltarVendasAtendentes;
     private javax.swing.JButton btnVoltarVendasGeral;
     private javax.swing.JComboBox<String> cbAtributoProduto;

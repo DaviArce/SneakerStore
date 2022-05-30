@@ -1977,6 +1977,10 @@
                       <EmptySpace min="-2" pref="154" max="-2" attributes="0"/>
                       <Component id="btnCadastro" min="-2" pref="100" max="-2" attributes="0"/>
                   </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="btnVoltarGerente" min="-2" pref="85" max="-2" attributes="0"/>
+                  </Group>
               </Group>
               <EmptySpace pref="165" max="32767" attributes="0"/>
           </Group>
@@ -1993,7 +1997,9 @@
                   <Component id="btnVendas" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
                   <Component id="btnCadastro" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace pref="241" max="32767" attributes="0"/>
+              <EmptySpace pref="121" max="32767" attributes="0"/>
+              <Component id="btnVoltarGerente" min="-2" pref="35" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="85" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -2025,8 +2031,16 @@
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Gerente"/>
+        <Property name="text" type="java.lang.String" value="GERENTE"/>
       </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnVoltarGerente">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Voltar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnVoltarGerenteActionPerformed"/>
+      </Events>
     </Component>
   </SubComponents>
 </Form>
